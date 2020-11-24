@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.productmain {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    /* background-color: #eec0c6; */
+    background:rgb(237, 252, 252);
+    /* background-size: ; */
+    background-repeat: no-repeat;
+ }
+
+.mainheading {
+    padding: 5px;
+    background-color: #1DA1F2;
+    color: rgb(231, 229, 229);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    opacity: 0.9;
+    box-shadow: 0 2px 10px rgb(105, 105, 105);
+
+}
+
+.mainheading>h4 {
+    line-height: 23px !important;
+}
+
+.category_heading {
+    color: grey;
+}
+
+.category_heading>h5 {
+    font-weight: 800 !important;
+    font-size: 21px !important;
+    margin-bottom: 10px;
+}
+
+.categoryinfo 
+{
+    margin-bottom:  30px !important;
+    margin-top: 15px !important;
+}
+
+.list-group
+{
+    box-shadow: 0 3px 10px rgb(71, 71, 73);
+    background-color: blue !important;
+}
+.forminput
+{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.formradio>h4
+{
+    text-align: center;
+}
+.radioinput
+{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.radioinput>input
+{
+    margin-right: 7px;
+}
+.forminput > h5
+{
+    font-weight: 500;
+    font-size: 16px;
+    width: 80%;
+    display: flex;
+}
+.formwaterpump
+{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.forminput > input
+{
+    padding: 10px 0 10px 0;
+    width: 20%;
+    /* height: 5vh; */
+   place-content: center
+   ;
+    display: flex;
+    
+    border: 1.5px solid maroon;
+    border-radius: 10px;
+
+}
+.formwaterpump >select
+{
+    padding: 8px;
+    width: 45%;
+    /* height: 5vh; */
+   place-content: center
+   ;
+    display: flex;
+    
+    border: 1.5px solid maroon;
+    border-radius: 10px;
+
+}
+input[type="number"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    text-align: center; 
+}
+
+.buttons
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons > button
+{
+    /* background-color: red !important; */
+}
+
+#clearbtn
+{
+    background-color: red !important;
+    color: white !important;
+}
+
+#searchbtn
+{
+    background-color: #1DA1F2 !important;
+    color: white !important;
+}
