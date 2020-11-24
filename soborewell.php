@@ -42,11 +42,13 @@
                 <div class="formradio">
                     <h4>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Power Supply available </h4> &emsp;
                     <div class="radioinput">
-                    <input type="radio" name="power" class="" /> <span>ಒಂದು ಫೇಸ್ ೨೩೦ ವೋಲ್ಟ್ <br> Single Phase 230V</span>
+                     <span>ಒಂದು ಫೇಸ್ ೨೩೦ ವೋಲ್ಟ್ <br> Single Phase 230V</span>
+                     <input type="radio" name="power" id="rdbtn1" checked="checked" />
 
                     </div>
                     <div class="radioinput">
-                    <input type="radio" name="power" class="" /> <span>ಮೂರು ಫೇಸ್ ೪೧೫ ವೋಲ್ಟ್  <br>Three Phase 415V</span>
+                     <span>ಮೂರು ಫೇಸ್ ೪೧೫ ವೋಲ್ಟ್  <br>Three Phase 415V</span>
+                     <input type="radio" name="power" />
 
                     </div>
                     
@@ -55,10 +57,10 @@
                     <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Which Make Pump Required</h5> &emsp;
                     <select type="number" placeholder="Metres" class="">
                         <option value="">
-                            Samsung
+                            Select
                         </option>
                         <option value="">
-                            Realme
+                            UNEEL
                         </option>
                         </select>
                 </div>
