@@ -27,8 +27,8 @@
             </h5>
         </div>
 
-        <div class="container">
-            <form action="soborewell.php">
+        <dic class="container">
+            <form action=" /custaddinp.php">
                 <div class="forminput">
                     <h5>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Water Required per day (in litres) </h5> &emsp;
                     <input type="number" placeholder="Litres" class="" >
@@ -66,7 +66,7 @@
                 </div>
                 <div class="buttons">
                    <button type="button" class="btn btn-light" id="clearbtn">CLEAR</button> 
-                   <button type="button" class="btn btn-light" id="searchbtn">SEARCH</button> 
+                   <button type="submit" class="btn btn-light" id="searchbtn">SEARCH</button> 
                 </div>
                 
 
