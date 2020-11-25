@@ -13,7 +13,7 @@
     font-size: 18px !important;
     }
     .radioinput>span {
-        font-size: 18px;
+        font-size: 18px;0.1
     }
 .formwaterpump>h5
 {
@@ -30,7 +30,6 @@
     font-size: 18px;
 
 }
-
 }
 * {
     margin: 0;
@@ -155,7 +154,7 @@ body
 .forminput > input
 {
     padding: 10px 5px 10px 5px;
-    width: 20%;
+        width: 20%;
     /* height: 5vh; */
    place-content: center;
     display: flex;
@@ -187,7 +186,6 @@ input[type="number"]::placeholder {
 
 .buttons
 {
-    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;

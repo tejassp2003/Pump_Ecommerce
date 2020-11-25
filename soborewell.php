@@ -66,12 +66,17 @@
                 </div>
                 <div class="buttons">
 <<<<<<< HEAD
+<<<<<<< HEAD
                    <button type="button" class="btn btn-light" id="clearbtn">CLEAR</button> 
                    <button type="submit" class="btn btn-light" id="searchbtn">SEARCH</button> 
 =======
                    <button type="button" onclick="window.location.reload();" class="btn btn-light" id="clearbtn">CLEAR</button> 
                    <button type="button" class="btn btn-light" id="searchbtn">SEARCH</button> 
 >>>>>>> 75bebdafee3e78b0c704fb08abd54486ae3498e5
+=======
+                   <button type="button" class="btn btn-light" id="clearbtn">CLEAR</button> 
+                   <button type="submit" class="btn btn-light" id="searchbtn">SEARCH</button> 
+>>>>>>> f298ea64696fee3a4a6b3ed441c7d2e91f8f50e7
                 </div>
                 
 
