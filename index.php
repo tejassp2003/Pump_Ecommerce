@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8" />
@@ -20,44 +20,73 @@
     <div class="productmain">
         <div class="mainheading">
             <h4>
-                <strong>Water Pump Selection 
-                    <br> ನೀರಿನ ಪಂಪ್ ಆಯ್ಕೆ</strong>
+                <strong lang="en">Water Pump Selection</strong>
+                <strong lang="ka">ನೀರಿನ ಪಂಪ್ ಆಯ್ಕೆ</strong>
             </h4>
+            <button id="switch-lang" style="color:black;">Switch Language</button>
+            
+
         </div>
 
         <div class="container">
             <div class="categoryinfo">
                 <div class="category_heading">
-                    <h5>For Domestic and Community <br> ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ </h5>
+                    <h5 lang="en">For Domestic and Community</h5>
+                    <h5 lang="ka">ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ</h5>
                 </div>
                 <div class="list-group">
-                    <a href="soborewell.php" class="list-group-item">Sump and Open Borewell / ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ </a>
-                    <a href="#" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
+                    <a href="soborewell.php" class="list-group-item" lang="en">Sump and Open Borewell</a>
+                    <a href="soborewell.php" class="list-group-item" lang="ka">ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ</a>
+                    <a href="#" class="list-group-item" lang="en">Bore Well</a>
+                    <a href="#" class="list-group-item" lang="ka">ಕೊಳವೆ ಭಾವಿ</a>
                 </div>
             </div>
             <div class="categoryinfo">
                 <div class="category_heading">
-                    <h5>For Agriculture <br> ವ್ಯವಸಾಯಕ್ಕೆ </h5>
+                    <h5 lang="en">For Agriculture</h5>
+                    <h5 lang="ka">ವ್ಯವಸಾಯಕ್ಕೆ</h5>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Open Well / ತೆರೆದ ಭಾವಿ </a>
-                    <a href="#" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
-                    <a href="#" class="list-group-item">Canal or River / ಕಾಲುವೆ ಅಥವಾ ನದಿ </a>
-                    <a href="#" class="list-group-item">Lift Irrigation / ಏತ್ ನೀರಾವರಿ </a>
-                    <a href="#" class="list-group-item">Solar Pumps / ಸೌರಶಕ್ತಿ ಪಂಪುಗಳು </a>
+                    <a href="#" class="list-group-item" lang="en" >Open Well</a>
+                    <a href="#" class="list-group-item" lang="ka">ತೆರೆದ ಭಾವಿ</a>
+                    <a href="#" class="list-group-item" lang="en">Bore Well</a>
+                    <a href="#" class="list-group-item" lang="ka">ಕೊಳವೆ ಭಾವಿ</a>
+                    <a href="#" class="list-group-item" lang="en">Canal or River</a>
+                    <a href="#" class="list-group-item" lang="ka">ಕಾಲುವೆ ಅಥವಾ ನದಿ</a>
+                    <a href="#" class="list-group-item" lang="en">Lift Irrigation</a>
+                    <a href="#" class="list-group-item" lang="ka">ಏತ್ ನೀರಾವರಿ</a>
+                    <a href="#" class="list-group-item" lang="en">Solar Pumps</a>
+                    <a href="#" class="list-group-item" lang="ka">ಸೌರಶಕ್ತಿ ಪಂಪುಗಳು</a>
                 </div>
             </div>
             <div class="categoryinfo">
                 <div class="category_heading">
-                    <h5>For Industry <br> ಕೈಗಾರಿಕೆಗೆ </h5>
+                    <h5 lang="en">For Industry</h5>
+                    <h5 lang="ka">ಕೈಗಾರಿಕೆಗೆ</h5>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Polder / ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
-                    <a href="#" class="list-group-item">Special Purpose Pumps / ವಿಶೇಷ ಉದ್ದೇಶದ ಪಂಪುಗಳು </a>
+                    <a href="#" class="list-group-item" lang="en">Polder</a>
+                    <a href="#" class="list-group-item" lang="ka">ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
+                    <a href="#" class="list-group-item" lang="en">Special Purpose Pumps</a>
+                    <a href="#" class="list-group-item"  lang="ka">ವಿಶೇಷ ಉದ್ದೇಶದ ಪಂಪುಗಳು </a>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script>
+
+$('[lang="ka"]').hide();
+
+$(document).ready(function() {
+  $('#switch-lang').click(myFunction);
+});
+
+function myFunction() {
+ $('[lang="ka"]').toggle();
+  $('[lang="en"]').toggle();
+
+}
+</script>
 
 </html>
