@@ -28,7 +28,7 @@
         <div class="container">
             <div class="categoryinfo">
                 <div class="category_heading">
-                    <h5>Domestic and Community <br> ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ </h5>
+                    <h5>For Domestic and Community <br> ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ </h5>
                 </div>
                 <div class="list-group">
                     <a href="soborewell.php" class="list-group-item">Sump and Open Borewell / ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ </a>
@@ -37,7 +37,7 @@
             </div>
             <div class="categoryinfo">
                 <div class="category_heading">
-                    <h5>Agriculture <br> ವ್ಯವಸಾಯಕ್ಕೆ </h5>
+                    <h5>For Agriculture <br> ವ್ಯವಸಾಯಕ್ಕೆ </h5>
                 </div>
                 <div class="list-group">
                     <a href="#" class="list-group-item">Open Well / ತೆರೆದ ಭಾವಿ </a>
@@ -49,7 +49,7 @@
             </div>
             <div class="categoryinfo">
                 <div class="category_heading">
-                    <h5>Industry <br> ಕೈಗಾರಿಕೆಗೆ </h5>
+                    <h5>For Industry <br> ಕೈಗಾರಿಕೆಗೆ </h5>
                 </div>
                 <div class="list-group">
                     <a href="#" class="list-group-item">Polder / ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
