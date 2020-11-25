@@ -9,6 +9,28 @@
   {
     font-size: 19px !important;
   }
+  .forminput > h5 {
+    font-size: 18px !important;
+    }
+    .radioinput>span {
+        font-size: 18px;
+    }
+.formwaterpump>h5
+{
+    font-size: 18px;
+
+}
+.buttons
+{
+    margin-top: 30px !important;
+    margin-bottom: 30px;
+}
+.buttons > button
+{
+    font-size: 18px;
+
+}
+
 }
 * {
     margin: 0;
@@ -93,7 +115,7 @@ body
     /* text-align: center; */
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .radioinput>input
 {
@@ -132,7 +154,7 @@ body
 
 .forminput > input
 {
-    padding: 10px 0 10px 0;
+    padding: 10px 5px 10px 5px;
     width: 20%;
     /* height: 5vh; */
    place-content: center;
@@ -166,6 +188,7 @@ input[type="number"]::placeholder {
 .buttons
 {
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
 }

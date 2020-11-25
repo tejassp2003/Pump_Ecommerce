@@ -65,13 +65,8 @@
                         </select>
                 </div>
                 <div class="buttons">
-<<<<<<< HEAD
                    <button type="button" class="btn btn-light" id="clearbtn">CLEAR</button> 
                    <button type="submit" class="btn btn-light" id="searchbtn">SEARCH</button> 
-=======
-                   <button type="button" onclick="window.location.reload();" class="btn btn-light" id="clearbtn">CLEAR</button> 
-                   <button type="button" class="btn btn-light" id="searchbtn">SEARCH</button> 
->>>>>>> 75bebdafee3e78b0c704fb08abd54486ae3498e5
                 </div>
                 
 
