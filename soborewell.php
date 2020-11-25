@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    Done by Tejas on 26th Nov
     <div class="productmain">
         <div class="mainheading">
             <h5>
@@ -27,7 +28,7 @@
             </h5>
         </div>
 
-        <dic class="container">
+        <div class="container">
             <form action="/soborewell.php">
                 <div class="forminput">
                     <h5>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Total Water Required per day </h5> &emsp;
