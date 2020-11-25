@@ -32,7 +32,7 @@
                 </div>
                 <div class="list-group">
                     <a href="soborewell.php" class="list-group-item">Sump and Open Borewell / ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ </a>
-                    <a href="#" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
+                    <a href="domborewell.php" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
                 </div>
             </div>
             <div class="categoryinfo">
