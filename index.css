@@ -13,7 +13,7 @@
     font-size: 18px !important;
     }
     .radioinput>span {
-        font-size: 18px;
+        font-size: 18px;0.1
     }
 .formwaterpump>h5
 {
@@ -208,4 +208,35 @@ input[type="number"]::placeholder {
 {
     background-color: #1DA1F2 !important;
     color: white !important;
+}
+
+.fullname_input
+{
+    display: flex;
+}
+
+.name_prefix
+{
+    flex: 0.2;
+}
+
+.name_text
+{
+    flex: 0.8;
+}
+
+.mobilenumber_input
+{
+    display: flex;
+    align-items: center;
+}
+
+.number_prefix
+{
+    background-color: grey;
+    color: white;
+    padding: 8.5px;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
