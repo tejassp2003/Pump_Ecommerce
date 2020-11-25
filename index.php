@@ -31,8 +31,8 @@
                     <h5>For Domestic and Community <br> ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ </h5>
                 </div>
                 <div class="list-group">
-                    <a href="soborewell.php" class="list-group-item">Sump and Open Borewell / ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ </a>
-                    <a href="#" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
+                    <a href="soborewell.php" class="list-group-item">Sump and Open Well / ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ </a>
+                    <a href="dcborewell.php" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
                 </div>
             </div>
             <div class="categoryinfo">
@@ -40,10 +40,10 @@
                     <h5>For Agriculture <br> ವ್ಯವಸಾಯಕ್ಕೆ </h5>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Open Well / ತೆರೆದ ಭಾವಿ </a>
-                    <a href="#" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
-                    <a href="#" class="list-group-item">Canal or River / ಕಾಲುವೆ ಅಥವಾ ನದಿ </a>
-                    <a href="#" class="list-group-item">Lift Irrigation / ಏತ್ ನೀರಾವರಿ </a>
+                    <a href="aowell.php" class="list-group-item">Open Well / ತೆರೆದ ಭಾವಿ </a>
+                    <a href="agriborewell.php" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
+                    <a href="acorrp.php" class="list-group-item">Canal or River / ಕಾಲುವೆ ಅಥವಾ ನದಿ </a>
+                    <a href="alip.php" class="list-group-item">Lift Irrigation / ಏತ ನೀರಾವರಿ </a>
                     <a href="#" class="list-group-item">Solar Pumps / ಸೌರಶಕ್ತಿ ಪಂಪುಗಳು </a>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                     <h5>For Industry <br> ಕೈಗಾರಿಕೆಗೆ </h5>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Polder / ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
+                    <a href="/indpol.php" class="list-group-item">Polder / ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
                     <a href="#" class="list-group-item">Special Purpose Pumps / ವಿಶೇಷ ಉದ್ದೇಶದ ಪಂಪುಗಳು </a>
                 </div>
             </div>
