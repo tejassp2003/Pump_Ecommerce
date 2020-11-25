@@ -13,7 +13,7 @@
     font-size: 18px !important;
     }
     .radioinput>span {
-        font-size: 18px;0.1
+        font-size: 18px;
     }
 .formwaterpump>h5
 {
@@ -31,7 +31,8 @@
 
 }
 }
-* {
+* 
+{
     margin: 0;
     padding: 0;
     
@@ -142,6 +143,30 @@ body
     width: 80%;
     display: flex;
 }
+
+.forminput > h6
+{
+    width: 50px;
+    padding-left: 2px;
+    display: flex;
+    
+}
+
+.forminput > input
+{
+    padding: 10px 5px 10px 5px;
+        width: 20%;
+    /* height: 5vh; */
+   place-content: center;
+    display: flex;
+    margin-right: 5px;
+    border: 1.5px solid maroon;
+    border-radius: 0px;
+    margin-left: -25px;
+
+}
+
+
 .formwaterpump
 {
     display: flex;
@@ -152,18 +177,6 @@ body
     border-bottom: 1px solid black;
 }
 
-.forminput > input
-{
-    padding: 10px 5px 10px 5px;
-        width: 20%;
-    /* height: 5vh; */
-   place-content: center;
-    display: flex;
-    
-    border: 1.5px solid maroon;
-    border-radius: 10px;
-
-}
 
 .formwaterpump >select
 {
@@ -176,7 +189,7 @@ body
     display: flex;
     
     border: 1.5px solid maroon;
-    border-radius: 10px;
+     border-radius: 0px;
 
 }
 input[type="number"]::placeholder {  

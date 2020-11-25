@@ -31,13 +31,16 @@
         <div class="container">
             <form action="/soborewell.php">
                 <div class="forminput">
-                    <h5>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Water Required per day (in litres) </h5> &emsp;
-                    <input type="number" placeholder="Litres" class="" >
+                    <h5>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Total Water Required per day </h5> &emsp;
+                        <input type="number" placeholder="Litres" class="" > 
+                        <h6><strong>in litres</strong> </h6>
+                    
                 </div>
                 
                 <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Total Height to be pumped(in metres) </h5> &emsp;
+                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Total Height to be pumped</h5> &emsp;
                     <input type="number" placeholder="Metres" class="">
+                    <h6><strong>in metres</strong> </h6>
                 </div>
                 
                 <div class="formradio">
@@ -67,10 +70,7 @@
                 </div>
                 <div class="buttons">
                    <button type="button" class="btn btn-light" id="clearbtn">CLEAR</button> 
-                   <button type="submit" class="btn btn-light" id="searchbtn">SEARCH</button> 
-                </div>
-                
-
+                   <button type="submit" class="btn btn-light" id="searchbtn">SEARCH</button>
             </form>
         </div>  
     </div>
