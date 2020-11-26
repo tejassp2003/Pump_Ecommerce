@@ -23,15 +23,19 @@
         <div class="mainheading">
             <h5>
                 <strong>Domestic Or Community  Bore Well Selection
-                    <br> ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ ತೊಟ್ಟಿ / ತೆರೆದ ಭಾವಿ ಪಂಪಿನ ಆಯ್ಕೆ  </strong>
+                    <br> ಗೃಹ ಅಥವಾ ವಸತಿ ನಿಲಯಕ್ಕೆ ಕೊಳವೆ ಭಾವಿಯ ಪಂಪಿನ ಆಯ್ಕೆ  </strong>
             </h5>
+            <button id="switch-lang" style="color: black">
+          <span lang="en">ಕನ್ನಡ</span>
+          <span lang="ka">English</span>
+        </button>
         </div>
 
         <div class="container">
             <form action="/dcborewell.php">
 
                 <div class="formradio">
-                    <h4>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Diameter of borewell</h4> &emsp;
+                    <h4>ನಿಮ್ಮ ಕೊಳವೆ ಭಾವಿಯ ವ್ಯಾಸ <br>Diameter of borewell</h4> &emsp;
                     <div class="radioinput">
                         <span>ಒಂದು ಫೇಸ್ ೨೩೦ ವೋಲ್ಟ್ <br> 80mm</span>
                         <input type="radio" name="power" id="rdbtn1" checked="checked" />
@@ -107,5 +111,16 @@
         </div>  
     </div>
 </body>
+<script>
+    $('[lang="ka"]').hide();
 
+    $(document).ready(function () {
+      $("#switch-lang").click(myFunction);
+    });
+
+    function myFunction() {
+      $('[lang="ka"]').toggle();
+      $('[lang="en"]').toggle();
+    }
+  </script>
 </html>

@@ -101,11 +101,13 @@ body
 }
 .forminput
 {
+    text-align: right;
+    justify-content: right;
     display: flex;
     width: 100%;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 5px 0;
     
-    align-items: center;
+    
     border-bottom: 1px solid black;
 
 }
@@ -146,28 +148,29 @@ body
 } */
 .forminput > h5
 {
+    
     font-weight: 500;
     font-size: 16px;
     width: 80%;
-    display: flex;
+    display: inline-block;
     word-wrap: break-word;
 }
 
 .forminput > .input-suffix>h6
 {
- 
-right: 10px;
+ text-align: left;
+
     
 }
 
 .forminput > .input-suffix>input
 {
     padding: 5px 5px 5px 5px;
-        width: 80%;
-        left: 10px;
+        width: 100%;
+        
     /* height: 5vh; */
    position: relative;
-   left: 17px;
+   left:0px;
     border: 1.5px solid maroon;
     border-radius: 0px;
     margin-left: -25px;

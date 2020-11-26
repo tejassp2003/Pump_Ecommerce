@@ -26,6 +26,10 @@
                 <strong>Industry Polder Pump Selection  
                     <br> ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ ತೊಟ್ಟಿ / ತೆರೆದ ಭಾವಿ ಪಂಪಿನ ಆಯ್ಕೆ  </strong>
             </h5>
+            <button id="switch-lang" style="color: black">
+          <span lang="en">ಕನ್ನಡ</span>
+          <span lang="ka">English</span>
+        </button>
         </div>
 
         <dic class="container">
@@ -61,5 +65,16 @@
         </div>  
     </div>
 </body>
+<script>
+    $('[lang="ka"]').hide();
 
+    $(document).ready(function () {
+      $("#switch-lang").click(myFunction);
+    });
+
+    function myFunction() {
+      $('[lang="ka"]').toggle();
+      $('[lang="en"]').toggle();
+    }
+  </script>
 </html>
