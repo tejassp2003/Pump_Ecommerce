@@ -1,117 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>PRAJASEVE</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="productmain">
-        <div class="mainheading">
-            <h5>
-                <strong>Domestic Or Community  Bore Well Selection
-                    <br> ಗೃಹ ಅಥವಾ ವಸತಿ ನಿಲಯಕ್ಕೆ ಕೊಳವೆ ಭಾವಿಯ ಪಂಪಿನ ಆಯ್ಕೆ  </strong>
-            </h5>
-            <button id="switch-lang" style="color: black">
+      <div class="mainheading">
+        <strong>
+          <h5 lang="en"></h5>Domestic Or Community Bore Well Selection</h5>
+          <h5 lang="ka">ಗೃಹ ಅಥವಾ ವಸತಿ ನಿಲಯಕ್ಕೆ ಕೊಳವೆ ಭಾವಿಯ ಪಂಪಿನ ಆಯ್ಕೆ</h5>
+        </strong>
+        <button id="switch-lang" style="color: black">
           <span lang="en">ಕನ್ನಡ</span>
           <span lang="ka">English</span>
         </button>
-        </div>
+      </div>
 
-        <div class="container">
-            <form action="/dcborewell.php">
+      <div class="container">
+        <form action="/dcborewell.php">
+          <div class="formradio">
+            <span lang="ka">ನಿಮ್ಮ ಕೊಳವೆ ಭಾವಿಯ ವ್ಯಾಸ</span>
+            <span lang="en">Diameter of borewell</span>
+            &emsp;
+            <div class="radioinput">
+              <h4 lang="ka">3 ಇಂಚು</h4>
+              <span lang="en">80mm</span>
+              <input type="radio" name="power" id="rdbtn1" checked="checked" />
+            </div>
+            <div class="radioinput">
+              <span lang="ka">4 ಇಂಚು</span>
+              <span lang="en">100mm</span>
+              <input type="radio" name="power" />
+            </div>
+            <div class="radioinput">
+              <span lang="ka">6 ಇಂಚು</span>
+              <span lang="en">150mm</span>
+              <input type="radio" name="power" />
+            </div>
+          </div>
 
-                <div class="formradio">
-                    <h4>ನಿಮ್ಮ ಕೊಳವೆ ಭಾವಿಯ ವ್ಯಾಸ <br>Diameter of borewell</h4> &emsp;
-                    <div class="radioinput">
-                        <span>ಒಂದು ಫೇಸ್ ೨೩೦ ವೋಲ್ಟ್ <br> 80mm</span>
-                        <input type="radio" name="power" id="rdbtn1" checked="checked" />
-                    </div>
-                    <div class="radioinput">
-                        <span>ಮೂರು ಫೇಸ್ ೪೧೫ ವೋಲ್ಟ್  <br>100mm</span>
-                        <input type="radio" name="power" />
-                    </div>
-                    <div class="radioinput">
-                        <span>ಮೂರು ಫೇಸ್ ೪೧೫ ವೋಲ್ಟ್  <br>150mm</span>
-                        <input type="radio" name="power" />
-                    </div>
-                    
-                </div>
-                
-                <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Total Bore Depth </h5> &emsp;
-                    <input type="number" placeholder="Metres" class="">
-                    <h6><strong>in metres</strong> </h6>
-                </div>
-                <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Static Water Level </h5> &emsp;
-                    <input type="number" placeholder="Metres" class="">
-                    <h6><strong>in metres</strong> </h6>
-                </div>
-                <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Final Water Source Depth </h5> &emsp;
-                    <input type="number" placeholder="Metres" class="">
-                    <h6><strong>in metres</strong> </h6>
-                </div>
-                <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Height to be pumped from Ground Level </h5> &emsp;
-                    <input type="number" placeholder="Metres" class="">
-                    <h6><strong>in metres</strong> </h6>
-                </div>
-                <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Total Yield Available </h5> &emsp;
-                    <input type="number" placeholder="LPM" class="">
-                    <h6><strong>in LPM</strong> </h6>
-                </div>
-                
-                <div class="formradio">
-                    <h4>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Power Supply available </h4> &emsp;
-                    <div class="radioinput">
-                     <span>ಒಂದು ಫೇಸ್ ೨೩೦ ವೋಲ್ಟ್ <br> Single Phase 230V</span>
-                     <input type="radio" name="power" id="rdbtn1" checked="checked" />
+          <div class="forminput">
+            <h5 lang="ka">ಕೊಳವೆ ಭಾವಿಯ ಒಟ್ಟು ಆಳ</h5>
+            <h5 lang="en">Total Bore Depth</h5>
+            &emsp;
+            <input type="number"    class="" />
+            <h6 lang="ka"><strong>
+              
+                ಮೀಟರ್ಗಳಲ್ಲಿ
+            </h6>
+            <h6 lang="en">
+                in metres
+              
+            </h6></strong>
+          </div>
+          <div class="forminput">
+            <h5 lang="ka">ಸ್ಥಿರ ನೀರಿನ ಮಟು</h5>
+            <h5 lang="en">Static Water Level</h5>
+            &emsp;
+            <input type="number"    class="" />
+            <strong><h6 lang="ka">
+              
+                ಮೀಟರ್ಗಳಲ್ಲಿ
+            </h6>
+            <h6 lang="en">
+                in metres
+              
+            </h6></strong>
+          </div>
+          <div class="forminput">
+            <h5 lang="ka">ಹೆಚ್ಚು ನೇರು ಸಿಕ್ಕಿದ ಆಳ</h5>
+            <h5 lang="en">Final Water Source Depth</h5>
+            &emsp;
+            <input type="number"    class="" />
+            <strong><h6 lang="ka">
+              
+                ಮೀಟರ್ಗಳಲ್ಲಿ
+            </h6>
+            <h6 lang="en">
+                in metres
+              
+            </h6></strong>
+          </div>
+          <div class="forminput">
+            <h5 lang="ka">ಭೂಮಿಯ ಮಟ್ಟದಿಂದ ಎಶ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೆಕು</h5>
+            <h5 lang="en">Height to be pumped from Ground Level</h5>
+            &emsp;
+            <input type="number"    class="" />
+            <strong><h6 lang="ka">
+             
+                ಮೀಟರ್ಗಳಲ್ಲಿ
+            </h6>
+            <h6 lang="en">
+                in metres
+              
+            </h6></strong>
+          </div>
+          <div class="forminput">
+            <h5 lang="ka">ಒಟ್ಟು ನೀರಿನ ಲಭ್ಯತೆ</h5>
+            <h5 lang="en">Total Yield Available</h5>
+            &emsp;
+            <input type="number" placeholder="LPM" class="" />
+            <strong><h6 lang="ka">
+              
+                ಲೀಟರ್ ನಿಮಿಶಕ್ಕೆ
+            </h6>
+            <h6  lang="en">
+                in LPM
+              
+            </h6></strong>
+          </div>
 
-                    </div>
-                    <div class="radioinput">
-                     <span>ಮೂರು ಫೇಸ್ ೪೧೫ ವೋಲ್ಟ್  <br>Three Phase 415V</span>
-                     <input type="radio" name="power" />
+          <div class="formradio">
+            <span lang="ka">ವಿದ್ಯುತ್ ಶಕ್ತಿ ಲಭ್ಯತೆ</span>
+            <span lang="en">Power Supply available</span>
+            &emsp;
+            <div class="radioinput">
+              <span lang="ka">ಒಂದು ಫೇಸ್ ೨೩೦ ವೋಲ್ಟ್</span>
+              <span lang="en">Single Phase 230V</span>
+              <input type="radio" name="power" id="rdbtn1" checked="checked" />
+            </div>
+            <div class="radioinput">
+              <span lang="ka">ಮೂರು ಫೇಸ್ ೪೧೫ ವೋಲ್ಟ್</span>
+              <span lang="en">Three Phase 415V</span>
+              <input type="radio" name="power" />
+            </div>
 
-                </div>
-                
-                <div class="formwaterpump">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Which Make Pump Required</h5> &emsp;
-                    <select type="number" placeholder="Metres" class="">
-                        <option value="">
-                            Select
-                        </option>
-                        <option value="">
-                            UNEEL
-                        </option>
-                        </select>
-                </div>
-                <div class="buttons">
-                   <button type="button" class="btn btn-light" id="clearbtn">CLEAR</button> 
-                   <button type="submit" class="btn btn-light" id="searchbtn">SEARCH</button> 
-                </div>
-                
-
-            </form>
-        </div>  
+            <div class="formwaterpump">
+              <h5 lang="ka">ಯಾವ ತಯಾರಿಕೆಯ ಪಂಪ್ ಬೇಕಾಗಿದೆ</h5>
+              <h5 lang="en">Which Make Pump Required</h5>
+              &emsp;
+              <select type="number"    class="">
+                <option value="">Select</option>
+                <option value="">UNEEL</option>
+              </select>
+            </div>
+            <div class="buttons">
+              <button type="button" class="btn btn-light" id="clearbtn">
+                CLEAR
+              </button>
+              <button type="submit" class="btn btn-light" id="searchbtn">
+                SEARCH
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-</body>
-<script>
+  </body>
+  <script>
     $('[lang="ka"]').hide();
 
     $(document).ready(function () {

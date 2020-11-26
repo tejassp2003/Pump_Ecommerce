@@ -49,7 +49,7 @@
             <h5 lang="en">Total Water Required per day</h5>
             &emsp;
             <div class="input-suffix">
-              <input type="number" placeholder="Litres" class="" />
+              <input type="number"   class="" />
               <h6>
                 <strong lang="en">in litres</strong>
                 <strong lang="ka">ಲೀಟರ್ಗಳಲ್ಲಿ</strong>
@@ -64,7 +64,7 @@
             <h5 lang="en">Total Height to be pumped</h5>
             &emsp;
             <div class="input-suffix">
-              <input type="number" placeholder="Metres" class="" />
+              <input type="number"    class="" />
               <h6>
                 <strong lang="en">in metres</strong>
                 <strong lang="ka">ಮೀಟರ್ಗಳಲ್ಲಿ</strong>
@@ -93,7 +93,7 @@
             </h5>
             <h5 lang="en">Which Make Pump Required</h5>
             &emsp;
-            <select type="number" placeholder="Metres" class="">
+            <select type="number"    class="">
               <option value="">Any Make</option>
               <option value="">UNEEL</option>
             </select>
