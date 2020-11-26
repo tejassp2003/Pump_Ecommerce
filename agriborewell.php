@@ -27,7 +27,7 @@
             </h5>
         </div>
 
-        <dic class="container">
+        <div class="container">
             <form action="/agriborewell.php">
 
                 <div class="formradio">
@@ -50,22 +50,27 @@
                 <div class="forminput">
                     <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Total Bore Depth(in metres) </h5> &emsp;
                     <input type="number" placeholder="Metres" class="">
+                    <h6><strong>in metres</strong> </h6>
                 </div>
                 <div class="forminput">
                     <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Static Water Level(in metres) </h5> &emsp;
                     <input type="number" placeholder="Metres" class="">
+                    <h6><strong>in metres</strong> </h6>
                 </div>
                 <div class="forminput">
                     <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Final Water Source Depth(in metres) </h5> &emsp;
                     <input type="number" placeholder="Metres" class="">
+                    <h6><strong>in metres</strong> </h6>
                 </div>
                 <div class="forminput">
                     <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Height to be pumped from Ground Level(in metres) </h5> &emsp;
                     <input type="number" placeholder="Metres" class="">
+                    <h6><strong>in metres</strong> </h6>
                 </div>
                 <div class="forminput">
                     <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Total Yield Available(in LPM) </h5> &emsp;
                     <input type="number" placeholder="LPM" class="">
+                    <h6><strong>in LPM</strong> </h6>
                 </div>
                 
                 <div class="formradio">

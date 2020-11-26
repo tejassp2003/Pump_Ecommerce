@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -35,15 +35,10 @@
                     <h5 lang="ka">ಗೃಹ ಮತ್ತು ವಸತಿ ನಿಲಯಕ್ಕೆ</h5>
                 </div>
                 <div class="list-group">
-<<<<<<< HEAD
-                    <a href="soborewell.php" class="list-group-item">Sump and Open Well / ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ </a>
-                    <a href="dcborewell.php" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
-=======
                     <a href="soborewell.php" class="list-group-item" lang="en">Sump and Open Borewell</a>
                     <a href="soborewell.php" class="list-group-item" lang="ka">ತೊಟ್ಟಿ ಮತ್ತು ತೆರೆದ ಭಾವಿ</a>
-                    <a href="#" class="list-group-item" lang="en">Bore Well</a>
-                    <a href="#" class="list-group-item" lang="ka">ಕೊಳವೆ ಭಾವಿ</a>
->>>>>>> 98bcb2095b5a95d453944d10edfd3059f08d9cf5
+                    <a href="dcborewell.php" class="list-group-item" lang="en">Bore Well</a>
+                    <a href="dcborewell.php" class="list-group-item" lang="ka">ಕೊಳವೆ ಭಾವಿ</a>
                 </div>
             </div>
             <div class="categoryinfo">
@@ -52,24 +47,16 @@
                     <h5 lang="ka">ವ್ಯವಸಾಯಕ್ಕೆ</h5>
                 </div>
                 <div class="list-group">
-<<<<<<< HEAD
-                    <a href="aowell.php" class="list-group-item">Open Well / ತೆರೆದ ಭಾವಿ </a>
-                    <a href="agriborewell.php" class="list-group-item">Bore Well / ಕೊಳವೆ ಭಾವಿ </a>
-                    <a href="acorrp.php" class="list-group-item">Canal or River / ಕಾಲುವೆ ಅಥವಾ ನದಿ </a>
-                    <a href="alip.php" class="list-group-item">Lift Irrigation / ಏತ ನೀರಾವರಿ </a>
-                    <a href="#" class="list-group-item">Solar Pumps / ಸೌರಶಕ್ತಿ ಪಂಪುಗಳು </a>
-=======
-                    <a href="#" class="list-group-item" lang="en" >Open Well</a>
-                    <a href="#" class="list-group-item" lang="ka">ತೆರೆದ ಭಾವಿ</a>
-                    <a href="#" class="list-group-item" lang="en">Bore Well</a>
-                    <a href="#" class="list-group-item" lang="ka">ಕೊಳವೆ ಭಾವಿ</a>
-                    <a href="#" class="list-group-item" lang="en">Canal or River</a>
-                    <a href="#" class="list-group-item" lang="ka">ಕಾಲುವೆ ಅಥವಾ ನದಿ</a>
-                    <a href="#" class="list-group-item" lang="en">Lift Irrigation</a>
-                    <a href="#" class="list-group-item" lang="ka">ಏತ್ ನೀರಾವರಿ</a>
-                    <a href="#" class="list-group-item" lang="en">Solar Pumps</a>
-                    <a href="#" class="list-group-item" lang="ka">ಸೌರಶಕ್ತಿ ಪಂಪುಗಳು</a>
->>>>>>> 98bcb2095b5a95d453944d10edfd3059f08d9cf5
+                    <a href="aowell.php" class="list-group-item" lang="en" >Open Well</a>
+                    <a href="aowell.php" class="list-group-item" lang="ka">ತೆರೆದ ಭಾವಿ</a>
+                    <a href="agriborewell.php" class="list-group-item" lang="en">Bore Well</a>
+                    <a href="agriborewell.php" class="list-group-item" lang="ka">ಕೊಳವೆ ಭಾವಿ</a>
+                    <a href="acorrp.php" class="list-group-item" lang="en">Canal or River</a>
+                    <a href="acorrp.php" class="list-group-item" lang="ka">ಕಾಲುವೆ ಅಥವಾ ನದಿ</a>
+                    <a href="alip.php" class="list-group-item" lang="en">Lift Irrigation</a>
+                    <a href="alip.php" class="list-group-item" lang="ka">ಏತ್ ನೀರಾವರಿ</a>
+                    <a href="agrisol.php" class="list-group-item" lang="en">Solar Pumps</a>
+                    <a href="agrisol.php" class="list-group-item" lang="ka">ಸೌರಶಕ್ತಿ ಪಂಪುಗಳು</a>
                 </div>
             </div>
             <div class="categoryinfo">
@@ -78,15 +65,10 @@
                     <h5 lang="ka">ಕೈಗಾರಿಕೆಗೆ</h5>
                 </div>
                 <div class="list-group">
-<<<<<<< HEAD
-                    <a href="/indpol.php" class="list-group-item">Polder / ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
-                    <a href="#" class="list-group-item">Special Purpose Pumps / ವಿಶೇಷ ಉದ್ದೇಶದ ಪಂಪುಗಳು </a>
-=======
-                    <a href="#" class="list-group-item" lang="en">Polder</a>
-                    <a href="#" class="list-group-item" lang="ka">ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
+                    <a href="indpol.php" class="list-group-item" lang="en">Polder</a>
+                    <a href="indpol.php" class="list-group-item" lang="ka">ತೊಟ್ಟಿ ಅಥವಾ ಹೊಂಡದ (ಕೊಳ)</a>
                     <a href="#" class="list-group-item" lang="en">Special Purpose Pumps</a>
                     <a href="#" class="list-group-item"  lang="ka">ವಿಶೇಷ ಉದ್ದೇಶದ ಪಂಪುಗಳು </a>
->>>>>>> 98bcb2095b5a95d453944d10edfd3059f08d9cf5
                 </div>
             </div>
         </div>

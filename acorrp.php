@@ -28,7 +28,7 @@
             </h5>
         </div>
 
-        <dic class="container">
+        <div class="container">
             <form action="/acorrp.php">
                 <div class="forminput">
                     <h5>ನೀರಿನ ಅವಶ್ಯಕತೆ ದಿನಕ್ಕೆ ಲೀಟರ್ಗಳಲ್ಲಿ <br>Water to be Pumped per Minute</h5> &emsp;
@@ -37,12 +37,12 @@
                 </div>
                 
                 <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Height to be pumped from Canal or River(in metres) </h5> &emsp;
+                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Height to be pumped from Canal or River</h5> &emsp;
                     <input type="number" placeholder="Metres" class="">
                     <h6><strong>in metres</strong> </h6>
                 </div>
                 <div class="forminput">
-                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Horizontal Distance to be Pumped(in metres) </h5> &emsp;
+                    <h5>ಒಟ್ಟು ಎಷ್ಟು ಎತ್ತರಕ್ಕೆ ನೀರನ್ನು ಎತ್ತಬೇಕು ಮೀಟರ್ಗಳಲ್ಲಿ <br>Horizontal Distance to be Pumped</h5> &emsp;
                     <input type="number" placeholder="Metres" class="">
                     <h6><strong>in metres</strong> </h6>
                 </div>
